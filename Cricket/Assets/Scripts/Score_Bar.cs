@@ -23,28 +23,29 @@ public class Score_Bar : MonoBehaviour
         {
             if (gameObject.name == "1Run")
             {
-                Debug.Log("1");
+                //Debug.Log("1");
                 gc.score += 1;
             }
             else if (gameObject.name == "2Run")
             {
-                Debug.Log("2");
+                //Debug.Log("2");
                 gc.score += 2;
             }
             else if(gameObject.name=="4Run")
             {
-                Debug.Log("4");
+                //Debug.Log("4");
                 gc.score += 4;
             }
             else if(gameObject.name=="6Run")
             {
-                Debug.Log("6");
+                //Debug.Log("6");
                 gc.score += 6;
             }
             else if(gameObject.name=="Out")
             {
-                Debug.Log("OUT");
+                //Debug.Log("OUT");
                 gc.score = 0;
+                gc.gameOver = true;
             }
         }
     }

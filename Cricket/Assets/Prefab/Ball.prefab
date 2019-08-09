@@ -94,7 +94,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.87
+  m_Mass: 2.06
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -132,3 +132,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impulseForce: {x: -18, y: 2, z: 0}
+  mat: {fileID: 6200000, guid: d7b2aefd29f6640918c706d9224a0722, type: 2}
